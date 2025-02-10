@@ -11,14 +11,15 @@
             "id": "4a59f9452794d9e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Week 4.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Week 4"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -178,11 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d23b5199c6c50e9",
+  "active": "4a59f9452794d9e6",
   "lastOpenFiles": [
+    "Week 4.md",
+    "README.md",
     "Screenshot 2025-02-09 at 8.18.54 PM.png",
     "2025-02-09.md",
-    "Untitled.canvas",
-    "Week 4.md"
+    "Untitled.canvas"
   ]
 }
