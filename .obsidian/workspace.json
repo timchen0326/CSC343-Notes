@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 4/Group BY and HAVING.md",
+                "file": "Week 5/Joins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Group BY and HAVING"
+              "title": "Joins"
             }
           }
         ]
@@ -180,15 +180,26 @@
   },
   "active": "6d23b5199c6c50e9",
   "lastOpenFiles": [
-    "Week 4/Test.md",
-    "Week 4/SQL-DML-01-basics-having.pdf",
-    "Week 4/SQL-DML-01-basics-having.pdf.crdownload",
+    "Screenshot 2025-02-09 at 11.01.10 PM.png",
+    "Images/Screenshot 2025-02-09 at 11.01.00 PM.png",
+    "Images/Screenshot 2025-02-09 at 11.00.45 PM.png",
+    "Week 5/Subqueries.md",
+    "Week 4/Subqueries.md",
     "Week 4/SQL-DML-05-subqueries.pdf",
+    "Week 4/SQL-DML-01-basics-having.pdf",
     "Week 4/Group BY and HAVING.md",
-    "Week 4",
-    "Untitled",
-    "README.md",
+    "Week 5/Joins.md",
+    "Week 5/Set Ops.md",
+    "Week 5/Week5 - Subqueries.pdf",
+    "Images/Screenshot 2025-02-09 at 10.14.47 PM.png",
+    "Images/Screenshot 2025-02-09 at 10.12.33 PM.png",
+    "Week 5",
+    "Week 4/Week4 - Subqueries.pdf",
     "Images/Screenshot 2025-02-09 at 8.18.54 PM.png",
+    "Week 4/Test.md",
+    "Week 4/SQL-DML-01-basics-having.pdf.crdownload",
+    "Week 4",
+    "README.md",
     "Images",
     "2025-02-09.md",
     "Untitled.canvas"
