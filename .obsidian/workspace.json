@@ -11,15 +11,14 @@
             "id": "4a59f9452794d9e6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Week 4/Group BY and HAVING.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Group BY and HAVING"
             }
           }
         ]
@@ -179,11 +178,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a59f9452794d9e6",
+  "active": "6d23b5199c6c50e9",
   "lastOpenFiles": [
-    "Week 4.md",
+    "Week 4/Test.md",
+    "Week 4/SQL-DML-01-basics-having.pdf",
+    "Week 4/SQL-DML-01-basics-having.pdf.crdownload",
+    "Week 4/SQL-DML-05-subqueries.pdf",
+    "Week 4/Group BY and HAVING.md",
+    "Week 4",
+    "Untitled",
     "README.md",
-    "Screenshot 2025-02-09 at 8.18.54 PM.png",
+    "Images/Screenshot 2025-02-09 at 8.18.54 PM.png",
+    "Images",
     "2025-02-09.md",
     "Untitled.canvas"
   ]
