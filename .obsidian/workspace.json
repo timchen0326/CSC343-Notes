@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 5/Joins.md",
+                "file": "Week 6/Data Definition Language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Joins"
+              "title": "Data Definition Language"
             }
           }
         ]
@@ -178,18 +178,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d23b5199c6c50e9",
+  "active": "4a59f9452794d9e6",
   "lastOpenFiles": [
+    "Week 6/Embedded SQL.md",
+    "Week 6/Data Definition Language.md",
+    "Week 6/Embedded-slides.pdf",
+    "Week 5/Subqueries.md",
+    "Week 5/Set Ops.md",
+    "Week 5/Joins.md",
+    "Week 6",
     "Images/Screenshot 2025-02-09 at 11.01.10 PM.png",
     "Images/Screenshot 2025-02-09 at 11.01.00 PM.png",
     "Images/Screenshot 2025-02-09 at 11.00.45 PM.png",
-    "Week 5/Subqueries.md",
     "Week 4/Subqueries.md",
     "Week 4/SQL-DML-05-subqueries.pdf",
     "Week 4/SQL-DML-01-basics-having.pdf",
     "Week 4/Group BY and HAVING.md",
-    "Week 5/Joins.md",
-    "Week 5/Set Ops.md",
     "Week 5/Week5 - Subqueries.pdf",
     "Images/Screenshot 2025-02-09 at 10.14.47 PM.png",
     "Images/Screenshot 2025-02-09 at 10.12.33 PM.png",

@@ -3,15 +3,15 @@ Now let’s write some queries! For each course, that is, each department and co
 
 ```sql
 create view counts as  
-select dept || cnum as course, instructor, count(oid)  
+SELECT dept || cnum as course, instructor, count(oid)  
 from Offering  
 group by dept, cnum, instructor;  
-select course, instructor, count  
+SELECT course, instructor, count  
 from counts c1  
-where count = (  
-	select max(count)  
+WHERE count = (  
+	SELECT max(count)  
 	from counts c2  
-	where c1.course = c2.course);
+	WHERE c1.course = c2.course);
 ```
 (b) Now solve the problem. Do not use any joins. (This will force you to use a subquery.)  
 
@@ -21,12 +21,12 @@ where count = (
 Use EXISTS to find the surname and email address of students who have never taken a CSC course.  
 
 ```sql
-select surname, email  
+SELECT surname, email  
 from student  
-where not exists (  
-	select *  
+WHERE not exists (  
+	SELECT *  
 	from took, offering  
-	where took.oid = offering.oid and  
+	WHERE took.oid = offering.oid and  
 	student.sid = took.sid and  
 	offering.dept = 'CSC');
 ```
@@ -63,14 +63,13 @@ levelavg FLOAT NOT NULL
 DROP VIEW IF EXISTS Grades CASCADE;  
 -- Define views for your intermediate steps here:  
 CREATE VIEW Grades as  
-select cnum, dept, grade  
+SELECT cnum, dept, grade  
 from offering, took  
-where offering.oid = took.oid;  
+WHERE offering.oid = took.oid;  
 -- Your query that answers the question goes below the "insert into" line:  
 INSERT INTO q10  
-(select 'junior' as level, avg(grade) as levelavg from grades where cnum >= 100 and  
+(SELECT 'junior' as level, avg(grade) as levelavg from grades WHERE cnum >= 100 and  
 cnum <= 299)  
 union  
-(select 'senior' as level, avg(grade) as levelavg from Grades where cnum >= 300 and  
-cnum <=499);
+(SELECT 'senior' as level, avg(grade) as levelavg from Grades WHERE cnum >= 300 and cnum <=499);
 ```
